@@ -1,1 +1,75 @@
-*{margin: 0; padding: 0;} 
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  font-size: 14px;
+  color: #777;
+  font-family: 'Lato', sans-serif; }
+
+section h1 {
+  font-size: 20px;
+  padding: 5px;
+  background: lightblue;
+  text-align: center;
+  margin: 0; }
+section .products {
+  border: 1px solid lightblue; }
+  section .products-item {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    border-bottom: 1px solid #e8e8e8; }
+    section .products-item-image {
+      width: 90px;
+      height: 90px; }
+      section .products-item-image img {
+        width: 100%;
+        height: 100%;
+        display: block; }
+    section .products-item-name h3 {
+      font-size: 16px; }
+    section .products-item-price input {
+      width: 60%;
+      margin: 5px 0; }
+    section .products-item-price p {
+      margin-bottom: 5px; }
+    section .products-item-price span {
+      cursor: default;
+      color: #373a3c;
+      background-color: #e6e6e6;
+      border: none; }
+section .cart {
+  border: 1px solid lightblue; }
+  section .cart .notice {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700; }
+  section .cart table thead {
+    background: blanchedalmond; }
+    section .cart table thead th {
+      text-align: center;
+      padding: 7px 0; }
+  section .cart table tbody tr {
+    border: 1px solid #e8e8e8; }
+    section .cart table tbody tr td {
+      text-align: center;
+      padding: 10px 0; }
+      section .cart table tbody tr td input {
+        width: 40%; }
+      section .cart table tbody tr td.input {
+        width: 20%; }
+      section .cart table tbody tr td span.btn {
+        border: none;
+        border-radius: 0;
+        margin: 0 5px; }
+section .notification {
+  background: green;
+  font-size: 16px;
+  padding: 5px 0;
+  margin-top: 10px;
+  color: #000; }
+
+/*# sourceMappingURL=style.css.map */

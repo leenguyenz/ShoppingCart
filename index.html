@@ -1,15 +1,154 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<title> Typescript </title>
+	<title> Shopping Cart </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<link rel="stylesheet" href="vendor/bootstrap.css">
- 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+ 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<h1>List Products</h1>
+					<div class="products">
+						<div class="products-item">
+							<div class="products-item-image">
+								<img src="images/iphonex.jpg" alt="">
+							</div>
+							<div class="products-item-name">
+								<h3>Iphone X</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="products-item-price">
+								<input type="number" value="1" min="1">
+								<p>Price: $900</p>
+								<a href="" class="btn btn-success">Buy now</a>
+							</div>
+						</div>
+						<div class="products-item">
+							<div class="products-item-image">
+								<img src="images/j7.jpg" alt="">
+							</div>
+							<div class="products-item-name">
+								<h3>Galaxy J7 Pro</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="products-item-price">
+								<input type="number" value="1" min="1">
+								<p>Price: $1200</p>
+								<a href="" class="btn btn-success">Buy now</a>
+							</div>
+						</div>
+						<div class="products-item">
+							<div class="products-item-image">
+								<img src="images/note8.jpg" alt="">
+							</div>
+							<div class="products-item-name">
+								<h3>Galaxy Note8</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="products-item-price">
+								<input type="number" value="1" min="1">
+								<p>Price: $700</p>
+								<a href="" class="btn btn-success">Buy now</a>
+							</div>
+						</div>
+						<div class="products-item">
+							<div class="products-item-image">
+								<img src="images/keyone.jpg" alt="">
+							</div>
+							<div class="products-item-name">
+								<h3>Blackberry Keyone</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="products-item-price">
+								<input type="number" value="1" min="1">
+								<p>Price: $500</p>
+								<span class="btn btn-secondary">Sold out</span>
+							</div>
+						</div>
+						<div class="products-item">
+							<div class="products-item-image">
+								<img src="images/ipad4.png" alt="">
+							</div>
+							<div class="products-item-name">
+								<h3>Ipad 4</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="products-item-price">
+								<input type="number" value="1" min="1">
+								<p>Price: $800</p>
+								<a href="" class="btn btn-success">Buy now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-6">
+					<h1>My Cart</h1>
+					<div class="cart">
+						<table>
+							<thead>
+								<tr>
+									<th>No.</th>
+									<th>Product</th>
+									<th>Quantity</th>
+									<th>Price</th>
+									<th>SubTotal</th>
+									<th>Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>IphoneX</td>
+									<td class="input"><input type="number" value="1" min="1"></td>
+									<td>$200</td>
+									<td>$200</td>
+									<td>
+										<span class="btn btn-primary">Update</span>
+										<span class="btn btn-warning">Delete</span>
+									</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>IphoneX</td>
+									<td><input type="number" value="1" min="1"></td>
+									<td>$200</td>
+									<td>$200</td>
+									<td>
+										<span class="btn btn-primary">Update</span>
+										<span class="btn btn-warning">Delete</span>
+									</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>IphoneX</td>
+									<td><input type="number" value="1" min="1"></td>
+									<td>$200</td>
+									<td>$200</td>
+									<td>
+										<span class="btn btn-primary">Update</span>
+										<span class="btn btn-warning">Delete</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<p class="notice">There are 3 items in your shopping cart</p>
+					</div>
+					<p class="notification">IphoneX updated successfull !</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-    <script type="text/javascript" src="vendor/bootstrap.js"></script>
-	<script type="text/javascript" src="mjs/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/system.js"></script>
+	<script src="mjs/script.js"></script>
 </body>
 </html>

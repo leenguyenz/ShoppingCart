@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es6",
         "outDir": "mjs",
-        "removeComments": true,
+        "module": "commonjs",
+        "removeComments": false,
         "watch": true
     },
     "exclude": [
